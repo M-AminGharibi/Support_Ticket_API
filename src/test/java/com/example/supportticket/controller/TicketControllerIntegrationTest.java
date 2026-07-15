@@ -93,11 +93,11 @@ class TicketControllerIntegrationTest {
         mockMvc.perform(put("/tickets/{id}/status", ticketId)
                         .contentType(MediaType.APPLICATION_JSON)
                         .content("""
-                                {"status": "RESOLVED"}
+                                {"status": "CLOSED"}
                                 """))
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$.success").value(true))
-                .andExpect(jsonPath("$.data.status").value("RESOLVED"));
+                .andExpect(jsonPath("$.data.status").value("CLOSED"));
 
         Ticket updatedTicket = ticketRepository.findById(ticketId).orElseThrow();
         assertThat(updatedTicket.getStatus()).isEqualTo(TicketStatus.CLOSED);
