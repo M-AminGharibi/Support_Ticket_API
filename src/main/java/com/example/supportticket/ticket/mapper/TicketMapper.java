@@ -1,8 +1,8 @@
-package com.example.supportticket.mapper;
+package com.example.supportticket.ticket.mapper;
 
-import com.example.supportticket.domain.dto.request.CreateTicketRequest;
-import com.example.supportticket.domain.dto.response.TicketResponse;
-import com.example.supportticket.domain.entity.Ticket;
+import com.example.supportticket.ticket.domain.dto.request.CreateTicketRequest;
+import com.example.supportticket.ticket.domain.dto.response.TicketResponse;
+import com.example.supportticket.ticket.domain.entity.Ticket;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.ReportingPolicy;

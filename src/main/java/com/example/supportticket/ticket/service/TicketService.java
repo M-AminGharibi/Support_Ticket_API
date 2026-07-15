@@ -1,8 +1,8 @@
-package com.example.supportticket.service;
+package com.example.supportticket.ticket.service;
 
-import com.example.supportticket.domain.dto.request.CreateTicketRequest;
-import com.example.supportticket.domain.dto.response.TicketResponse;
-import com.example.supportticket.domain.enums.TicketStatus;
+import com.example.supportticket.ticket.domain.dto.request.CreateTicketRequest;
+import com.example.supportticket.ticket.domain.dto.response.TicketResponse;
+import com.example.supportticket.ticket.domain.enums.TicketStatus;
 
 import java.util.List;
 

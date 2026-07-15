@@ -1,4 +1,4 @@
-package com.example.supportticket.domain.enums;
+package com.example.supportticket.ticket.domain.enums;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 

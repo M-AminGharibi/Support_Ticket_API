@@ -1,4 +1,4 @@
-package com.example.supportticket.aop;
+package com.example.supportticket.common.aop;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
@@ -15,7 +15,7 @@ public class ExecutionTimeAspect {
 
     private static final Logger log = LoggerFactory.getLogger(ExecutionTimeAspect.class);
 
-    @Around("@annotation(com.example.supportticket.aop.LogExecutionTime)")
+    @Around("@annotation(com.example.supportticket.common.aop.LogExecutionTime)")
     public Object logExecutionTime(ProceedingJoinPoint joinPoint) throws Throwable {
         long startNanos = System.nanoTime();
         try {

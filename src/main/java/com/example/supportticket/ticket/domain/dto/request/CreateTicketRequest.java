@@ -1,4 +1,4 @@
-package com.example.supportticket.domain.dto.request;
+package com.example.supportticket.ticket.domain.dto.request;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.NotBlank;

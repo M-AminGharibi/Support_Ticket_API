@@ -1,14 +1,14 @@
-package com.example.supportticket.service.impl;
+package com.example.supportticket.ticket.service.impl;
 
-import com.example.supportticket.aop.LogExecutionTime;
-import com.example.supportticket.domain.dto.request.CreateTicketRequest;
-import com.example.supportticket.domain.dto.response.TicketResponse;
-import com.example.supportticket.domain.entity.Ticket;
-import com.example.supportticket.domain.enums.TicketStatus;
-import com.example.supportticket.exception.TicketNotFoundException;
-import com.example.supportticket.mapper.TicketMapper;
-import com.example.supportticket.repository.TicketRepository;
-import com.example.supportticket.service.TicketService;
+import com.example.supportticket.common.aop.LogExecutionTime;
+import com.example.supportticket.ticket.domain.dto.request.CreateTicketRequest;
+import com.example.supportticket.ticket.domain.dto.response.TicketResponse;
+import com.example.supportticket.ticket.domain.entity.Ticket;
+import com.example.supportticket.ticket.domain.enums.TicketStatus;
+import com.example.supportticket.common.exception.TicketNotFoundException;
+import com.example.supportticket.ticket.mapper.TicketMapper;
+import com.example.supportticket.ticket.repository.TicketRepository;
+import com.example.supportticket.ticket.service.TicketService;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

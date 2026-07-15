@@ -1,4 +1,4 @@
-package com.example.supportticket.exception;
+package com.example.supportticket.common.exception;
 
 import com.example.supportticket.common.ErrorResponse;
 import com.example.supportticket.common.ErrorResponse.FieldViolation;

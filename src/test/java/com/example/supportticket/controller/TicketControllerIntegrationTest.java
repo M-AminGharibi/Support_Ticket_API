@@ -1,8 +1,8 @@
 package com.example.supportticket.controller;
 
-import com.example.supportticket.domain.entity.Ticket;
-import com.example.supportticket.domain.enums.TicketStatus;
-import com.example.supportticket.repository.TicketRepository;
+import com.example.supportticket.ticket.domain.entity.Ticket;
+import com.example.supportticket.ticket.domain.enums.TicketStatus;
+import com.example.supportticket.ticket.repository.TicketRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

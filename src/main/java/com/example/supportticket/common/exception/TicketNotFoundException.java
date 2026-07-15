@@ -1,4 +1,4 @@
-package com.example.supportticket.exception;
+package com.example.supportticket.common.exception;
 
 public class TicketNotFoundException extends RuntimeException {
 

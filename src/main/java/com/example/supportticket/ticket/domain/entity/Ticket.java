@@ -1,6 +1,6 @@
-package com.example.supportticket.domain.entity;
+package com.example.supportticket.ticket.domain.entity;
 
-import com.example.supportticket.domain.enums.TicketStatus;
+import com.example.supportticket.ticket.domain.enums.TicketStatus;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;

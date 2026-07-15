@@ -1,4 +1,4 @@
-package com.example.supportticket.aop;
+package com.example.supportticket.common.aop;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

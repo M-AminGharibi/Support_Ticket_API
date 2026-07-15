@@ -1,6 +1,6 @@
-package com.example.supportticket.domain.dto.response;
+package com.example.supportticket.ticket.domain.dto.response;
 
-import com.example.supportticket.domain.enums.TicketStatus;
+import com.example.supportticket.ticket.domain.enums.TicketStatus;
 import io.swagger.v3.oas.annotations.media.Schema;
 
 import java.time.Instant;

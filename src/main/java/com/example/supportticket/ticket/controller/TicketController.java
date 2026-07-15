@@ -1,11 +1,11 @@
-package com.example.supportticket.controller;
+package com.example.supportticket.ticket.controller;
 
 import com.example.supportticket.common.ApiResponse;
 import com.example.supportticket.common.ErrorResponse;
-import com.example.supportticket.domain.dto.request.CreateTicketRequest;
-import com.example.supportticket.domain.dto.request.UpdateStatusRequest;
-import com.example.supportticket.domain.dto.response.TicketResponse;
-import com.example.supportticket.service.TicketService;
+import com.example.supportticket.ticket.domain.dto.request.CreateTicketRequest;
+import com.example.supportticket.ticket.domain.dto.request.UpdateStatusRequest;
+import com.example.supportticket.ticket.domain.dto.response.TicketResponse;
+import com.example.supportticket.ticket.service.TicketService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;
